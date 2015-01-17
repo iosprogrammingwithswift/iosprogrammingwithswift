@@ -59,8 +59,8 @@ Jedes Teammitglied muss die grundlegende Funktionsweise der _eigenen_ App erklä
 
 
 # Teams
-- Jan, Robert & Jannet
-- Franziska, Nico & Kristina
+- Jan, Robert & Janette
+- Franziska, Nicolas & Kristina
 - Philipp & Jonas
 - Marina, Tino & Christoph
 - Viktor, Artem & Yevgeniy
