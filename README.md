@@ -1,6 +1,6 @@
 # iOS Programmierung (mit Swift)
 
-[FHWS - Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt](www.welearn.de)
+[FHWS - Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt](http://www.welearn.de)
 
 ## Aktuelle Informationen
 - 18.01.15: Tipps bei Zwischen-Aufgaben aktualisiert
