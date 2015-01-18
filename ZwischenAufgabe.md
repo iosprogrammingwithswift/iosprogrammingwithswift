@@ -32,6 +32,7 @@ Jedes Teammitglied muss die grundlegende Funktionsweise der _eigenen_ App erklä
 
 
 ## Tipps:
+- Versioniert euren Code mit Git. Mögliche Git-Orte sind: <http://bitbucket.org> (Bitbucket bietet private Respositories für bis zu 5 Nutzer) oder ihr fragt an der Hochschule bei Peter Riegler, ob ihr ein Git-Repository gestellt bekommen könnt.
 - Darauf achten, dass die App nicht abstürzt!
   - kann beim String "Würzburg" passieren
   - wenn keine Internet-Verbindung besteht
@@ -40,6 +41,7 @@ Jedes Teammitglied muss die grundlegende Funktionsweise der _eigenen_ App erklä
   - kann passieren, wenn ein Wetter-Typ geliefert wird, für den keine Grafik existiert
   - ...
 - Das Datenmodell, dass ihr euch am _Sa, den 17.01.15_ erarbeitet habt, ist nicht in Stein gemeißelt! Es kann gerne verändert werden (mehr oder weniger Klassen, ??, ...).
+- Es besteht kein Zwang die vorgegebenen Grafiken zu verwenden. Es können auch eigene Grafiken verwendet werden. Beachtet dann die korrekten Auflösungen (`file.png`, `file@2x.png` & `file@3x.png`).
 - Auto Layout kann, muss aber nicht benutzt werden. Vielleicht traut sich wer von euch daran (Tipp: Vielleicht findet ihr eine gute Grundlage unter den in der Keynote-Datei `Swift_05_Documentation.key` angegeben Links)
 - Überdenkt immer eure Datenstrukturen & euren Swift-Syntax! Die offensichtliche Lösung ist nicht immer die Eleganteste. (Können die Daten nochmal vom Nutzer geändert werden, oder sind sie konstant?). Achtet auf die in `Swift_04_A (not so) Quick Tour.key` und `Swift_04_ASwiftTour.playground` gezeigten Beispiele.
 - Denkt an `weak`
