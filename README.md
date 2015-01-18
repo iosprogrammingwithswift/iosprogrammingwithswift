@@ -2,6 +2,11 @@
 
 [FHWS - Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt](www.welearn.de)
 
+## Aktuelle Informationen
+- 18.01.15: Tipps bei Zwischen-Aufgaben aktualisiert
+- 17.01.15: [Zwischen-Aufgabe](ZwischenAufgabe.md) veröffentlicht
+
+## Allgemeine Informationen
 - Lehrveranstaltung: iOS-Programmierung
 - Fach- bzw. Prüfungsnummer:  5003087
 - Modul: iOS-Programmierung
