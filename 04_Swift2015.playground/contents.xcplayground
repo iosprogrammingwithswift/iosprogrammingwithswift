@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='00_Hello'/>
+        <page name='00_Showoff'/>
+        <page name='01_The Basics'/>
+        <page name='02_Basic Operators'/>
+        <page name='03_Strings And Characters'/>
+        <page name='04_Collection Types'/>
+        <page name='05_Control Flow'/>
+        <page name='06_Functions'/>
+        <page name='07_Closures'/>
+        <page name='08_Enumerations'/>
+        <page name='09_Classes And Structs'/>
+        <page name='10_Properties'/>
+        <page name='11_Methods'/>
+        <page name='12_Subscripts'/>
+        <page name='13_Inheritance'/>
+        <page name='14_Initialization'/>
+        <page name='15_Deinitialization'/>
+        <page name='16_ARC'/>
+        <page name='17_Optional Chaining'/>
+        <page name='18_Error Handling'/>
+        <page name='19_Type Casting'/>
+        <page name='20_Nested Types'/>
+        <page name='21_22_Protocols_Extensions'/>
+        <page name='22_Bonus_MixinsOverInheritance_1'/>
+        <page name='22_Bonus_MixinsOverInheritance_2'/>
+        <page name='23_Generics'/>
+        <page name='24_Access Control'/>
+        <page name='25_Advanced Operators'/>
+        <page name='26_Where'/>
+    </pages>
+</playground>
