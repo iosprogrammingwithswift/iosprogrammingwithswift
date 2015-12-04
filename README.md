@@ -3,6 +3,7 @@
 [FHWS - Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt](http://www.welearn.de)
 
 ## Aktuelle Informationen
+- [Swift in a Browser: IBM Swift Sandbox](https://developer.ibm.com/swift/2015/12/03/introducing-the-ibm-swift-sandbox/)
 - [Welcome to Swift.org](https://swift.org/)
 - [How Do I Declare a Closure in Swift?](http://fuckingclosuresyntax.com/)
 - [git --everything-is-local](https://git-scm.com/)
