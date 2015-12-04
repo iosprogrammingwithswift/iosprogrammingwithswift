@@ -3,10 +3,12 @@
 [FHWS - Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt](http://www.welearn.de)
 
 ## Aktuelle Informationen
+- [Welcome to Swift.org](https://swift.org/)
+- [How Do I Declare a Closure in Swift?](http://fuckingclosuresyntax.com/)
 - [git --everything-is-local](https://git-scm.com/)
 - [Git Intro - Coenen](https://www.cccmz.de/wp-content/uploads/2014/03/git-intro.pdf)
 - [Try Git](https://try.github.io/levels/1/challenges/1)
-- Git Clients: [Git Tower](http://www.git-tower.com/) & [Sourcetree](https://www.sourcetreeapp.com/)
+- Git Clients: [Github Desktop](https://desktop.github.com/), [Git Tower](http://www.git-tower.com/) & [Sourcetree](https://www.sourcetreeapp.com/)
 - [gitlab.com](https://about.gitlab.com/gitlab-com/) & [github.com](https://github.com)
 
 ## Allgemeine Informationen
