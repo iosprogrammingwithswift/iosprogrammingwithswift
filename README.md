@@ -6,7 +6,8 @@
 
 Aufgaben:
 - Twitter Account erstellen & den coolen Leuten Folgen ([John Gruber](https://twitter.com/gruber), [Chris Lattner](https://twitter.com/clattner_llvm) & [Greg Parker](https://twitter.com/gparker/))
-- Github Account erstellen und unserem Projekt beitreten in unseren Gitter.im Raum kommen
+- Github Account erstellen und unserem Projekt beitreten in unseren [Gitter.im](https://gitter.im) Raum kommen
+- [Gitter-Raum](https://gitter.im/iosprogrammingwithswift?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
 - [Swift in a Browser: IBM Swift Sandbox](https://developer.ibm.com/swift/2015/12/03/introducing-the-ibm-swift-sandbox/)
 - [Welcome to Swift.org](https://swift.org/)
 - [Good Code Style](https://swift.org/documentation/api-design-guidelines.html#clarity-at-the-point-of-use)
