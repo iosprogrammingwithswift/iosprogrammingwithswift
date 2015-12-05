@@ -5,7 +5,7 @@
 ## Aktuelle Informationen
 
 Aufgaben:
-- Twitter Account erstellen & den coolen Leuten Folgen ([John Gruber](https://twitter.com/gruber), [Chris Lattner](https://twitter.com/clattner_llvm) & [Grep Parker](https://twitter.com/gparker/)
+- Twitter Account erstellen & den coolen Leuten Folgen ([John Gruber](https://twitter.com/gruber), [Chris Lattner](https://twitter.com/clattner_llvm) & [Greg Parker](https://twitter.com/gparker/))
 - Github Account erstellen und unserem Projekt beitreten in unseren Gitter.im Raum kommen
 - [Swift in a Browser: IBM Swift Sandbox](https://developer.ibm.com/swift/2015/12/03/introducing-the-ibm-swift-sandbox/)
 - [Welcome to Swift.org](https://swift.org/)
