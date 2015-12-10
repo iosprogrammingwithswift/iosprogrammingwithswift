@@ -5,6 +5,24 @@
 ## Aktuelle Informationen
 
 Aufgaben:
+
+- `drawFromPoint
+    func drawFromPoint(canvas:UIImageView, start: CGPoint, toPoint end: CGPoint , withColor:UIColor, lineWidth:CGFloat, alpha:CGFloat) -> UIImage {
+        UIGraphicsBeginImageContext(canvas.frame.size)
+        let context = UIGraphicsGetCurrentContext()
+        canvas.image?.drawInRect(CGRect(x: 0, y: 0,
+            width: canvas.frame.size.width, height: canvas.frame.size.height))
+        CGContextSetLineWidth(context, lineWidth)
+        CGContextSetAlpha(context, alpha);
+        CGContextSetStrokeColorWithColor(context, withColor.CGColor)
+        CGContextBeginPath(context)
+        CGContextMoveToPoint(context, start.x, start.y)
+        CGContextAddLineToPoint(context, end.x, end.y)
+        CGContextStrokePath(context)
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return newImage
+    }
 - Twitter Account erstellen & den coolen Leuten Folgen ([John Gruber](https://twitter.com/gruber), [Chris Lattner](https://twitter.com/clattner_llvm) & [Greg Parker](https://twitter.com/gparker/))
 - Github Account erstellen und unserem Projekt beitreten in unseren [Gitter.im](https://gitter.im) Raum kommen
 - [Gitter-Raum](https://gitter.im/iosprogrammingwithswift?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
@@ -26,4 +44,3 @@ Aufgaben:
 - Dozenten: [Andreas Wittmann](http://www.welearn.de/fakultaet-iw/personen/lehrbeauftragte/details/person/andreas-wittmann.html) ([@anwittmann](https://twitter.com/anwittmann)) & [Florian Bachmann](http://www.welearn.de/fakultaet-iw/personen/lehrbeauftragte/details/person/florian-bachmann.html) ([@florianbachmann](https://twitter.com/florianbachmann))
 - Semesterwochenstunden: 4
 - Modulhandbuch: [Modulhandbuch_Inf_2014-10-09.pdf](http://www.welearn.de/fileadmin/redaktion/dokumente/modulhandbuecher/Modulhandbuch_Inf_2014-10-09.pdf)
-
