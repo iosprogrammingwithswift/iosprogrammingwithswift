@@ -7,6 +7,7 @@
 Aufgaben:
 
 - `drawFromPoint`
+```
     func drawFromPoint(canvas:UIImageView, start: CGPoint, toPoint end: CGPoint , withColor:UIColor, lineWidth:CGFloat, alpha:CGFloat) -> UIImage {
         UIGraphicsBeginImageContext(canvas.frame.size)
         let context = UIGraphicsGetCurrentContext()
@@ -23,6 +24,7 @@ Aufgaben:
         UIGraphicsEndImageContext()
         return newImage
     }
+```
 - Twitter Account erstellen & den coolen Leuten Folgen ([John Gruber](https://twitter.com/gruber), [Chris Lattner](https://twitter.com/clattner_llvm) & [Greg Parker](https://twitter.com/gparker/))
 - Github Account erstellen und unserem Projekt beitreten in unseren [Gitter.im](https://gitter.im) Raum kommen
 - [Gitter-Raum](https://gitter.im/iosprogrammingwithswift?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
