@@ -6,7 +6,7 @@
 
 Aufgaben:
 
-- `drawFromPoint
+- `drawFromPoint`
     func drawFromPoint(canvas:UIImageView, start: CGPoint, toPoint end: CGPoint , withColor:UIColor, lineWidth:CGFloat, alpha:CGFloat) -> UIImage {
         UIGraphicsBeginImageContext(canvas.frame.size)
         let context = UIGraphicsGetCurrentContext()
