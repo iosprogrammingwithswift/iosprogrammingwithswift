@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		544875981C1AC02C00A086C7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544875971C1AC02C00A086C7 /* SettingsViewController.swift */; };
-		549E3D581C19CC110048A1D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549E3D571C19CC110048A1D2 /* AppDelegate.swift */; };
-		549E3D5A1C19CC110048A1D2 /* PaintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549E3D591C19CC110048A1D2 /* PaintingViewController.swift */; };
-		549E3D5D1C19CC110048A1D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549E3D5B1C19CC110048A1D2 /* Main.storyboard */; };
-		549E3D5F1C19CC110048A1D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 549E3D5E1C19CC110048A1D2 /* Assets.xcassets */; };
-		549E3D621C19CC110048A1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 549E3D601C19CC110048A1D2 /* LaunchScreen.storyboard */; };
+		542F2A221C17334100F25C43 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F2A211C17334100F25C43 /* SettingsViewController.swift */; };
+		54652DC31C09BFD20005D157 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54652DC21C09BFD20005D157 /* AppDelegate.swift */; };
+		54652DC51C09BFD20005D157 /* TouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54652DC41C09BFD20005D157 /* TouchViewController.swift */; };
+		54652DC81C09BFD20005D157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54652DC61C09BFD20005D157 /* Main.storyboard */; };
+		54652DCA1C09BFD20005D157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54652DC91C09BFD20005D157 /* Assets.xcassets */; };
+		54652DCD1C09BFD20005D157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54652DCB1C09BFD20005D157 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		544875971C1AC02C00A086C7 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		549E3D541C19CC110048A1D2 /* TouchPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		549E3D571C19CC110048A1D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		549E3D591C19CC110048A1D2 /* PaintingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingViewController.swift; sourceTree = "<group>"; };
-		549E3D5C1C19CC110048A1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		549E3D5E1C19CC110048A1D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		549E3D611C19CC110048A1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		549E3D631C19CC110048A1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542F2A211C17334100F25C43 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		54652DBF1C09BFD20005D157 /* TouchPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54652DC21C09BFD20005D157 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54652DC41C09BFD20005D157 /* TouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchViewController.swift; sourceTree = "<group>"; };
+		54652DC71C09BFD20005D157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54652DC91C09BFD20005D157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54652DCC1C09BFD20005D157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54652DCE1C09BFD20005D157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		549E3D511C19CC110048A1D2 /* Frameworks */ = {
+		54652DBC1C09BFD20005D157 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		549E3D4B1C19CC110048A1D2 = {
+		54652DB61C09BFD20005D157 = {
 			isa = PBXGroup;
 			children = (
-				549E3D561C19CC110048A1D2 /* TouchPainter */,
-				549E3D551C19CC110048A1D2 /* Products */,
+				54652DC11C09BFD20005D157 /* TouchPainter */,
+				54652DC01C09BFD20005D157 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		549E3D551C19CC110048A1D2 /* Products */ = {
+		54652DC01C09BFD20005D157 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				549E3D541C19CC110048A1D2 /* TouchPainter.app */,
+				54652DBF1C09BFD20005D157 /* TouchPainter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		549E3D561C19CC110048A1D2 /* TouchPainter */ = {
+		54652DC11C09BFD20005D157 /* TouchPainter */ = {
 			isa = PBXGroup;
 			children = (
-				549E3D571C19CC110048A1D2 /* AppDelegate.swift */,
-				549E3D591C19CC110048A1D2 /* PaintingViewController.swift */,
-				549E3D5B1C19CC110048A1D2 /* Main.storyboard */,
-				544875971C1AC02C00A086C7 /* SettingsViewController.swift */,
-				549E3D5E1C19CC110048A1D2 /* Assets.xcassets */,
-				549E3D601C19CC110048A1D2 /* LaunchScreen.storyboard */,
-				549E3D631C19CC110048A1D2 /* Info.plist */,
+				54652DC21C09BFD20005D157 /* AppDelegate.swift */,
+				54652DC41C09BFD20005D157 /* TouchViewController.swift */,
+				54652DC61C09BFD20005D157 /* Main.storyboard */,
+				542F2A211C17334100F25C43 /* SettingsViewController.swift */,
+				54652DC91C09BFD20005D157 /* Assets.xcassets */,
+				54652DCB1C09BFD20005D157 /* LaunchScreen.storyboard */,
+				54652DCE1C09BFD20005D157 /* Info.plist */,
 			);
 			path = TouchPainter;
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		549E3D531C19CC110048A1D2 /* TouchPainter */ = {
+		54652DBE1C09BFD20005D157 /* TouchPainter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 549E3D661C19CC110048A1D2 /* Build configuration list for PBXNativeTarget "TouchPainter" */;
+			buildConfigurationList = 54652DD11C09BFD20005D157 /* Build configuration list for PBXNativeTarget "TouchPainter" */;
 			buildPhases = (
-				549E3D501C19CC110048A1D2 /* Sources */,
-				549E3D511C19CC110048A1D2 /* Frameworks */,
-				549E3D521C19CC110048A1D2 /* Resources */,
+				54652DBB1C09BFD20005D157 /* Sources */,
+				54652DBC1C09BFD20005D157 /* Frameworks */,
+				54652DBD1C09BFD20005D157 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = TouchPainter;
 			productName = TouchPainter;
-			productReference = 549E3D541C19CC110048A1D2 /* TouchPainter.app */;
+			productReference = 54652DBF1C09BFD20005D157 /* TouchPainter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		549E3D4C1C19CC110048A1D2 /* Project object */ = {
+		54652DB71C09BFD20005D157 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Flori & Andy";
 				TargetAttributes = {
-					549E3D531C19CC110048A1D2 = {
-						CreatedOnToolsVersion = 7.2;
+					54652DBE1C09BFD20005D157 = {
+						CreatedOnToolsVersion = 7.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 549E3D4F1C19CC110048A1D2 /* Build configuration list for PBXProject "TouchPainter" */;
+			buildConfigurationList = 54652DBA1C09BFD20005D157 /* Build configuration list for PBXProject "TouchPainter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 549E3D4B1C19CC110048A1D2;
-			productRefGroup = 549E3D551C19CC110048A1D2 /* Products */;
+			mainGroup = 54652DB61C09BFD20005D157;
+			productRefGroup = 54652DC01C09BFD20005D157 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				549E3D531C19CC110048A1D2 /* TouchPainter */,
+				54652DBE1C09BFD20005D157 /* TouchPainter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		549E3D521C19CC110048A1D2 /* Resources */ = {
+		54652DBD1C09BFD20005D157 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				549E3D621C19CC110048A1D2 /* LaunchScreen.storyboard in Resources */,
-				549E3D5F1C19CC110048A1D2 /* Assets.xcassets in Resources */,
-				549E3D5D1C19CC110048A1D2 /* Main.storyboard in Resources */,
+				54652DCD1C09BFD20005D157 /* LaunchScreen.storyboard in Resources */,
+				54652DCA1C09BFD20005D157 /* Assets.xcassets in Resources */,
+				54652DC81C09BFD20005D157 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		549E3D501C19CC110048A1D2 /* Sources */ = {
+		54652DBB1C09BFD20005D157 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				549E3D5A1C19CC110048A1D2 /* PaintingViewController.swift in Sources */,
-				549E3D581C19CC110048A1D2 /* AppDelegate.swift in Sources */,
-				544875981C1AC02C00A086C7 /* SettingsViewController.swift in Sources */,
+				54652DC51C09BFD20005D157 /* TouchViewController.swift in Sources */,
+				54652DC31C09BFD20005D157 /* AppDelegate.swift in Sources */,
+				542F2A221C17334100F25C43 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		549E3D5B1C19CC110048A1D2 /* Main.storyboard */ = {
+		54652DC61C09BFD20005D157 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				549E3D5C1C19CC110048A1D2 /* Base */,
+				54652DC71C09BFD20005D157 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		549E3D601C19CC110048A1D2 /* LaunchScreen.storyboard */ = {
+		54652DCB1C09BFD20005D157 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				549E3D611C19CC110048A1D2 /* Base */,
+				54652DCC1C09BFD20005D157 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		549E3D641C19CC110048A1D2 /* Debug */ = {
+		54652DCF1C09BFD20005D157 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,7 +202,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -211,7 +211,7 @@
 			};
 			name = Debug;
 		};
-		549E3D651C19CC110048A1D2 /* Release */ = {
+		54652DD01C09BFD20005D157 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +241,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -249,24 +249,24 @@
 			};
 			name = Release;
 		};
-		549E3D671C19CC110048A1D2 /* Debug */ = {
+		54652DD21C09BFD20005D157 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TouchPainter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.fhws.meinteam.TouchPainter;
+				PRODUCT_BUNDLE_IDENTIFIER = de.pandaandape.TouchPainter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		549E3D681C19CC110048A1D2 /* Release */ = {
+		54652DD31C09BFD20005D157 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TouchPainter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.fhws.meinteam.TouchPainter;
+				PRODUCT_BUNDLE_IDENTIFIER = de.pandaandape.TouchPainter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -274,25 +274,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		549E3D4F1C19CC110048A1D2 /* Build configuration list for PBXProject "TouchPainter" */ = {
+		54652DBA1C09BFD20005D157 /* Build configuration list for PBXProject "TouchPainter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				549E3D641C19CC110048A1D2 /* Debug */,
-				549E3D651C19CC110048A1D2 /* Release */,
+				54652DCF1C09BFD20005D157 /* Debug */,
+				54652DD01C09BFD20005D157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		549E3D661C19CC110048A1D2 /* Build configuration list for PBXNativeTarget "TouchPainter" */ = {
+		54652DD11C09BFD20005D157 /* Build configuration list for PBXNativeTarget "TouchPainter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				549E3D671C19CC110048A1D2 /* Debug */,
-				549E3D681C19CC110048A1D2 /* Release */,
+				54652DD21C09BFD20005D157 /* Debug */,
+				54652DD31C09BFD20005D157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 549E3D4C1C19CC110048A1D2 /* Project object */;
+	rootObject = 54652DB71C09BFD20005D157 /* Project object */;
 }

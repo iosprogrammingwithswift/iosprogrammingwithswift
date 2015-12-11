@@ -2,32 +2,29 @@
 //  SettingsViewController.swift
 //  TouchPainter
 //
-//  Created by Flori on 11.12.15.
 //  Copyright © 2015 Flori & Andy. All rights reserved.
 //
 
 import UIKit
 
 struct Settings {
-    var brush:CGFloat
-    var opacity:CGFloat
+    var brush: CGFloat
+    var opacity: CGFloat
 }
 
 protocol SettingsViewControllerDelegate: class {
     func settingsViewControllerFinished(settings: Settings)
 }
 
-
 class SettingsViewController: UIViewController {
+    weak var delegate: SettingsViewControllerDelegate?
+    var brush: CGFloat = 10.0
+    var opacity: CGFloat = 1.0
+    
     @IBOutlet weak var labelBrush: UILabel!
     @IBOutlet weak var labelOpacity: UILabel!
     @IBOutlet weak var sliderBrush: UISlider!
     @IBOutlet weak var sliderOpacity: UISlider!
-    
-    weak var delegate:SettingsViewControllerDelegate?
-    
-    var brush: CGFloat = 10.0
-    var opacity: CGFloat = 1.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,10 +34,10 @@ class SettingsViewController: UIViewController {
         sliderOpacity.value = Float(opacity)
     }
     
-    @IBAction func closeAction(sender: UIBarButtonItem) {
-        let s = Settings(brush: brush, opacity: opacity)
-        delegate?.settingsViewControllerFinished(s)
+    @IBAction func close(sender: AnyObject) {
         dismissViewControllerAnimated(true, completion: nil)
+        let s = Settings(brush: brush, opacity: opacity)
+        self.delegate?.settingsViewControllerFinished(s)
     }
     
     @IBAction func sliderSizeChanged(sender: UISlider) {
@@ -52,15 +49,4 @@ class SettingsViewController: UIViewController {
         opacity = CGFloat(sender.value)
         labelOpacity.text = String(format: "%.2f", opacity)
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }

@@ -28,9 +28,6 @@ class GesturesViewController: UIViewController {
         tapView.addGestureRecognizer(tap)
     }
     
-    func tappedView() {
-    }
-   
     func tappedView(recognizer : UITapGestureRecognizer) {
         //message: "tapped"
         print("tapped")

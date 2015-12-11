@@ -17,17 +17,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Malprogramm lädt gerade" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKm-eN-hW8">
-                                <rect key="frame" x="201" y="289" width="198" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swift Kurs lernt malen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cii-KF-geq">
+                                <rect key="frame" x="217" y="289" width="167" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wKm-eN-hW8" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6MN-7k-fPL"/>
-                            <constraint firstItem="wKm-eN-hW8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TPQ-Nb-XBl"/>
+                            <constraint firstItem="cii-KF-geq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8dd-Xj-6sx"/>
+                            <constraint firstItem="cii-KF-geq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="GDT-Ag-07Z"/>
                         </constraints>
                     </view>
                 </viewController>
