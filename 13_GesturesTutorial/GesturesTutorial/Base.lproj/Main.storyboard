@@ -77,6 +77,9 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.33295715930000003" blue="0.24287726800000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="MI0-Zl-g6P" appends="YES" id="n1h-Sw-II4"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hBp-x3-kuL">
                                 <rect key="frame" x="39" y="354" width="300" height="300"/>
@@ -114,6 +117,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="MI0-Zl-g6P">
+                    <connections>
+                        <action selector="pinchedView:" destination="BYZ-38-t0r" id="O7I-Op-y8F"/>
+                    </connections>
+                </pinchGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="318" y="640"/>
         </scene>

@@ -23,11 +23,17 @@ class GesturesViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        
+        let tap = UITapGestureRecognizer(target: self, action: "tappedView:")
+        tap.numberOfTapsRequired = 1
+        tapView.addGestureRecognizer(tap)
     }
-
+    
+    func tappedView() {
+    }
+   
     func tappedView(recognizer : UITapGestureRecognizer) {
         //message: "tapped"
+        print("tapped")
         showGestureName("Tapped")
     }
     
@@ -52,13 +58,18 @@ class GesturesViewController: UIViewController {
         showGestureName("Dragged")
 
     }
-    
+    /*
     @IBAction func pinchedView(sender: UIPinchGestureRecognizer) {
         print("Pinch ")
         showGestureName("Pinch")
 
     }
+    */
     
+    @IBAction func pinchedView(sender: UIPinchGestureRecognizer) {
+        print("Pinch ")
+        showGestureName("Pinch")
+    }
     func showAlertViewControllerWith(title: String, message: String) {
         let tapAlert = UIAlertController(title: title, message: message, preferredStyle: UIAlertControllerStyle.Alert)
         tapAlert.addAction(UIAlertAction(title: "OK", style: .Destructive, handler: nil))
