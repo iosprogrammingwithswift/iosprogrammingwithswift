@@ -15,6 +15,7 @@ class Student:Person {
     
     let matNr:Int
     var mark = [String:Int]()
+    var date:NSDate?
     
     init(studentMatNr:Int, studentForename:String, studentSurename: String, studentAge:Int) {
         self.matNr = studentMatNr

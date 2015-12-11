@@ -246,38 +246,69 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XXn-B5-WYj">
-                                <rect key="frame" x="60" y="70" width="44" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lblName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loU-Qa-y2S">
+                                <rect key="frame" x="495" y="121" width="63" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bw-Wt-5Zf">
-                                <rect key="frame" x="60" y="125.5" width="50" height="20.5"/>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="4ZM-84-0a4">
+                                <rect key="frame" x="140" y="178.5" width="320" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="471447874.61844999">
+                                    <!--2015-12-10 13:44:34 +0000-->
+                                </date>
+                                <connections>
+                                    <action selector="dateChangedAction:" destination="i98-WE-uvr" eventType="valueChanged" id="0MK-yg-KIN"/>
+                                </connections>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Datum:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8IT-Qm-aLS">
+                                <rect key="frame" x="60" y="150" width="55.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="lblName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="loU-Qa-y2S">
-                                <rect key="frame" x="152" y="125.5" width="63" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="lblDate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bcg-mt-Hg9">
+                                <rect key="frame" x="506" y="150" width="54" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0bw-Wt-5Zf">
+                                <rect key="frame" x="60" y="121" width="50" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5lv-E6-zQq">
+                                <rect key="frame" x="140" y="402.5" width="320" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="i98-WE-uvr" id="DDB-yy-ogS"/>
+                                    <outlet property="delegate" destination="i98-WE-uvr" id="P6T-g9-l1o"/>
+                                </connections>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="XXn-B5-WYj" firstAttribute="leading" secondItem="0bw-Wt-5Zf" secondAttribute="leading" id="Ifg-6a-yOG"/>
-                            <constraint firstItem="loU-Qa-y2S" firstAttribute="leading" secondItem="0bw-Wt-5Zf" secondAttribute="trailing" constant="42" id="Qda-aD-UTR"/>
-                            <constraint firstItem="XXn-B5-WYj" firstAttribute="leading" secondItem="obV-Kh-rH2" secondAttribute="leading" constant="60" id="SDS-XH-v3b"/>
-                            <constraint firstItem="XXn-B5-WYj" firstAttribute="top" secondItem="TFc-l6-TfE" secondAttribute="bottom" constant="50" id="XfX-64-TZ8"/>
+                            <constraint firstItem="0bw-Wt-5Zf" firstAttribute="top" secondItem="TFc-l6-TfE" secondAttribute="bottom" constant="57" id="4uV-11-oa2"/>
+                            <constraint firstItem="8IT-Qm-aLS" firstAttribute="leading" secondItem="0bw-Wt-5Zf" secondAttribute="leading" id="7bi-MC-mgs"/>
+                            <constraint firstItem="Bcg-mt-Hg9" firstAttribute="baseline" secondItem="8IT-Qm-aLS" secondAttribute="baseline" id="Pfd-zh-VKB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="loU-Qa-y2S" secondAttribute="trailing" constant="22" id="Wbt-sc-Quv"/>
+                            <constraint firstItem="4ZM-84-0a4" firstAttribute="top" secondItem="8IT-Qm-aLS" secondAttribute="bottom" constant="8" id="aU0-tI-Ykh"/>
+                            <constraint firstItem="5lv-E6-zQq" firstAttribute="top" secondItem="4ZM-84-0a4" secondAttribute="bottom" constant="8" id="b71-1f-Sr7"/>
                             <constraint firstItem="loU-Qa-y2S" firstAttribute="baseline" secondItem="0bw-Wt-5Zf" secondAttribute="baseline" id="fxe-P2-Iy0"/>
-                            <constraint firstItem="0bw-Wt-5Zf" firstAttribute="top" secondItem="XXn-B5-WYj" secondAttribute="bottom" constant="35" id="grk-C0-A9f"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bcg-mt-Hg9" secondAttribute="trailing" constant="20" id="oEI-5B-zqd"/>
+                            <constraint firstItem="0bw-Wt-5Zf" firstAttribute="leading" secondItem="obV-Kh-rH2" secondAttribute="leadingMargin" constant="40" id="rfM-KM-vNe"/>
+                            <constraint firstItem="4ZM-84-0a4" firstAttribute="centerX" secondItem="obV-Kh-rH2" secondAttribute="centerX" id="wfy-XA-WYE"/>
+                            <constraint firstItem="5lv-E6-zQq" firstAttribute="centerX" secondItem="obV-Kh-rH2" secondAttribute="centerX" id="xG6-og-CvT"/>
+                            <constraint firstItem="8IT-Qm-aLS" firstAttribute="top" secondItem="0bw-Wt-5Zf" secondAttribute="bottom" constant="8.5" id="y43-sK-jCN"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Ein Student" id="vpY-EB-ouZ"/>
                     <connections>
+                        <outlet property="einOutLetAufDenPicker" destination="5lv-E6-zQq" id="LQO-oP-GEJ"/>
+                        <outlet property="lblDate" destination="Bcg-mt-Hg9" id="1qb-u3-PLL"/>
                         <outlet property="lblName" destination="loU-Qa-y2S" id="qg2-rX-FrF"/>
+                        <outlet property="uiDatePicker" destination="4ZM-84-0a4" id="9jd-Df-hCh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n3Y-gQ-vky" userLabel="First Responder" sceneMemberID="firstResponder"/>
