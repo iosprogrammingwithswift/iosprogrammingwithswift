@@ -6,7 +6,59 @@
 
 Aufgaben:
 
-- `drawFromPoint`
+# Zwischen-Aufgabe
+
+### Teil 1
+Ihr müsst eine Wetter-App bauen!
+
+Die App holt sich bei der Wetter-API von _openweathermap_ die aktuellen Wetter-Daten für einen Ort (im Beispiel Würzburg).
+ 
+<http://api.openweathermap.org/data/2.5/weather?q=wuerzburg>
+
+Die zurückgelieferten Daten müssen vom JSON-Format in ein Swift-Datenmodell überführt werden (JSON parsen & in `properties` ablegen).
+
+Die App soll nun die wichtigen Wetterinformationen für den Nutzer dieser App anzeigen (Label mit Temperatur, Image mit Wettergrafik, usw...)
+
+Achtet hier auf Apples HIG! Lasst es schön & Apple-konform aussehen! :-)
+
+### Teil 2
+Vervollständigt das im Git liegende `07_GesturesTutorial` um die vier fehlenden Gesten. Dabei gilt: 
+- zwei der vier GestureRecognizer müssen im Code implementiert werden
+- zwei der vier GestureRecognizer müssen im Storyboard verknüpft sein
+- gebt ein Feedback, wenn der GestureRecognizer ausgeführt wird
+- im Simulator können mehrere Finger mit der `[alt]`-Taste simuliert werden. Die Finger können mit der `[Shift]`-Taste verschoben werden.
+ 
+
+## Abgabe-Termin
+Die Aufgabe muss bis spätestens **Freitag, den 12.02.16 um 7:59** Uhr bei Andy **&** Flori als gültiger Git-Link eingegangen sein, so dass wir das Projekt auschecken können!
+
+Der abgegebene Code muss ohne Fehler compilierbar sein und darf nicht(!) abstürzen. 'Warning Free' gehört zum guten Ton.
+
+Jedes Teammitglied muss die grundlegende Funktionsweise der _eigenen_ App erklären können.
+
+Prüfungszeiten werden noch per Mail bekannt gegeben.
+
+
+## Tipps:
+- Dieses Dokument regelmäßig prüfen, ob es aktualisiert wird
+- Auf einem iPad/iPhone funktionieren Gesten besser als im Simulator (Peter gibt euch gerne Test-Geräte)
+- Darauf achten, dass die App nicht abstürzt!
+  - kann beim String "Würzburg" passieren
+  - wenn keine Internet-Verbindung besteht
+  - wenn ein leerer Suchstring ("") angegeben wurde
+  - kann immer dann passieren, wenn ihr auf ein `nil` Objekt zugreift 
+  - kann passieren, wenn ein Wetter-Typ geliefert wird, für den keine Grafik existiert
+  - ...
+- Versioniert euren Code mit Git!
+- Es besteht kein Zwang die vorgegebenen Grafiken zu verwenden. Es können auch eigene Grafiken verwendet werden. Beachtet dann die korrekten Auflösungen (`file.png`, `file@2x.png` & `file@3x.png`).
+- Wenn kein AutoLayout verwendet wird, dann doch bitte StackViews. AutoLayout muss erklärt werden können (z.B. Was ist eine Intrinsic Size)
+- Denkt an `weak`
+- Gesten-Tipps:
+  - `CGAffineTransformScale(sender.view!.transform, sender.scale, sender.scale)`
+  - `CGAffineTransformRotate(currentTrans, rotation)`
+  - `sender.translationInView(self.view);sender.view!.center = CGPoint...;`
+  - `sender.setTranslation(...)`
+- `drawFromPoint` für `FingerTouch`
 ```
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         let touch = touches.first! as UITouch
@@ -37,6 +89,14 @@ Aufgaben:
         return newImage
     }
 ```
+- Wenn eure App abstürzt achtet immer auf die Consolen-Ausgabe (von oben nach unten lesen):
+  - `this class is not key value coding-compliant for the key` ihr habt irgendwo im Storyboard ein 'Warndreieck'
+  - `unrecognized selector sent to instance` ihr habt die Methode nicht korrekt deklariert
+- Wenn ihr Fragen habt, könnt ihr gerne Andy & Flori eure Fragen per ~~Mail~~, Gitter oder Twitter stellen.
+- CamelCase. Haltet euch an die Konventionen der Plattform
+- Wenn Xcode oder Swift nicht mehr richtig funktioniert, hilft ein `Product/Clean` oder alternativ ein Xcode Neustart.
+- Wer Klammern aufmacht, muss auch Klammern zumachen.
+- Macht man es richtig, funktioniert es auch ;-)
 - Twitter Account erstellen & den coolen Leuten Folgen ([John Gruber](https://twitter.com/gruber), [Chris Lattner](https://twitter.com/clattner_llvm) & [Greg Parker](https://twitter.com/gparker/))
 - Github Account erstellen und unserem Projekt beitreten in unseren [Gitter.im](https://gitter.im) Raum kommen
 - [Gitter-Raum](https://gitter.im/iosprogrammingwithswift?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
@@ -58,3 +118,6 @@ Aufgaben:
 - Dozenten: [Andreas Wittmann](http://www.welearn.de/fakultaet-iw/personen/lehrbeauftragte/details/person/andreas-wittmann.html) ([@anwittmann](https://twitter.com/anwittmann)) & [Florian Bachmann](http://www.welearn.de/fakultaet-iw/personen/lehrbeauftragte/details/person/florian-bachmann.html) ([@florianbachmann](https://twitter.com/florianbachmann))
 - Semesterwochenstunden: 4
 - Modulhandbuch: [Modulhandbuch_Inf_2014-10-09.pdf](http://www.welearn.de/fileadmin/redaktion/dokumente/modulhandbuecher/Modulhandbuch_Inf_2014-10-09.pdf)
+
+# Teams
+
