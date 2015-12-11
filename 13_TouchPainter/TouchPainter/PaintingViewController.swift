@@ -12,6 +12,17 @@ class PaintingViewController: UIViewController {
     @IBOutlet weak var canvas: UIImageView!
     var currentColor:UIColor = UIColor.redColor()
     var start:CGPoint?
+    var opacity:CGFloat = 1.0
+    var brush:CGFloat = 10.0
+    
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let settings = segue.destinationViewController as! SettingsViewController
+        settings.delegate = self
+        settings.opacity = opacity
+        settings.brush =  brush
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +38,7 @@ class PaintingViewController: UIViewController {
         let touch = touches.first! as UITouch
         let end = touch.locationInView(view)
         if let start = start {
-            canvas.image = drawFromPoint(canvas, start: start, toPoint: end, withColor: currentColor, lineWidth: 1.0, alpha: 1.0)
+            canvas.image = drawFromPoint(canvas, start: start, toPoint: end, withColor: currentColor, lineWidth: brush, alpha: opacity)
         }
         start = end
     }
@@ -66,9 +77,13 @@ class PaintingViewController: UIViewController {
     }
 }
 
-
-
-
+//PaintingViewController_SettingsViewControllerDelegate.swift
+extension PaintingViewController: SettingsViewControllerDelegate {
+    func settingsViewControllerFinished(settings: Settings) {
+        opacity = settings.opacity
+        brush = settings.brush
+    }
+}
 
 
 

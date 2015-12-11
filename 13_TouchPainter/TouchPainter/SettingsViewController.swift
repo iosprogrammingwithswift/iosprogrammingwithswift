@@ -8,30 +8,59 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
+struct Settings {
+    var brush:CGFloat
+    var opacity:CGFloat
+}
 
+protocol SettingsViewControllerDelegate: class {
+    func settingsViewControllerFinished(settings: Settings)
+}
+
+
+class SettingsViewController: UIViewController {
+    @IBOutlet weak var labelBrush: UILabel!
+    @IBOutlet weak var labelOpacity: UILabel!
+    @IBOutlet weak var sliderBrush: UISlider!
+    @IBOutlet weak var sliderOpacity: UISlider!
+    
+    weak var delegate:SettingsViewControllerDelegate?
+    
+    var brush: CGFloat = 10.0
+    var opacity: CGFloat = 1.0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    @IBAction func closeAction(sender: UIBarButtonItem) {
+        labelBrush.text = String(format: "%.2f", brush)
+        labelOpacity.text = String(format: "%.2f", opacity)
+        sliderBrush.value = Float(brush)
+        sliderOpacity.value = Float(opacity)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func closeAction(sender: UIBarButtonItem) {
+        let s = Settings(brush: brush, opacity: opacity)
+        delegate?.settingsViewControllerFinished(s)
+        dismissViewControllerAnimated(true, completion: nil)
     }
-    */
-
+    
+    @IBAction func sliderSizeChanged(sender: UISlider) {
+        brush = CGFloat(sender.value)
+        labelBrush.text = String(format: "%.2f", brush)
+    }
+    
+    @IBAction func sliderOpacityChanged(sender: UISlider) {
+        opacity = CGFloat(sender.value)
+        labelOpacity.text = String(format: "%.2f", opacity)
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
