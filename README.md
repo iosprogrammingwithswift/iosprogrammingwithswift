@@ -19,6 +19,8 @@ Die zurückgelieferten Daten müssen vom JSON-Format in ein Swift-Datenmodell ü
 
 Die App soll nun die wichtigen Wetterinformationen für den Nutzer dieser App anzeigen (Label mit Temperatur, Image mit Wettergrafik, usw...)
 
+Wir haben euch Wetter-Grafiken zur Verfügung gestellt. Sie liegen als Sketch-Datei und pngs im Ordner [WeatherApp_Assets](https://github.com/iosprogrammingwithswift/iosprogrammingwithswift/tree/master/WeatherApp_Assets).
+
 Achtet hier auf Apples HIG! Lasst es schön & Apple-konform aussehen! :-)
 
 ### Teil 2
@@ -50,7 +52,8 @@ Prüfungszeiten werden noch per Mail bekannt gegeben.
   - kann passieren, wenn ein Wetter-Typ geliefert wird, für den keine Grafik existiert
   - ...
 - Versioniert euren Code mit Git!
-- Es besteht kein Zwang die vorgegebenen Grafiken zu verwenden. Es können auch eigene Grafiken verwendet werden. Beachtet dann die korrekten Auflösungen (`file.png`, `file@2x.png` & `file@3x.png`).
+- Peek & Pop sind Low-Hanging-Fruits
+- Es besteht kein Zwang die vorgegebenen Wetter-Grafiken zu verwenden (Sie liegen immer noch als Sketch-Datei und pngs im Ordner [WeatherApp_Assets](https://github.com/iosprogrammingwithswift/iosprogrammingwithswift/tree/master/WeatherApp_Assets)). Es können auch eigene Grafiken verwendet werden. Beachtet dann die korrekten Auflösungen (`file.png`, `file@2x.png` & `file@3x.png`). 
 - Wenn kein AutoLayout verwendet wird, dann doch bitte StackViews. AutoLayout muss erklärt werden können (z.B. Was ist eine Intrinsic Size)
 - Denkt an `weak`
 - Gesten-Tipps:
