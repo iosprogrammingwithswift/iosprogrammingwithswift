@@ -2,11 +2,8 @@
 
 [FHWS - Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt](http://www.welearn.de)
 
-## Aktuelle Informationen
 
-Aufgaben:
-
-# Zwischen-Aufgabe
+## Zwischen-Aufgabe
 
 ### Teil 1
 Ihr müsst eine Wetter-App bauen!
@@ -30,49 +27,6 @@ Vervollständigt das im Git liegende `07_GesturesTutorial` um die vier fehlenden
 - gebt ein Feedback, wenn der GestureRecognizer ausgeführt wird
 - im Simulator können mehrere Finger mit der `[alt]`-Taste simuliert werden. Die Finger können mit der `[Shift]`-Taste verschoben werden.
  
-### Teams 
-1. 
- Werb Titian
- Joseph Hudalla
- Rost Maximilian
----
-2.
-Bogomaz Veronika
-Yauk Arina
----
-
-3.
- Tony
- Burkhard Jan
- Ul-Haque Danial
----
-4.
-Mierzwa Filip
-Lienert Steffen
-Eder Thimo
----
-5.
-- Hisser Alexander
-- Dominic Barwanietz
-- Schäfer Philipp
----
-6.
-- Keller Felix
-- Julius Hackel
----
-7.
-- Gerasch Stefan
-- Sebastian Balz 
----
-8.
-- Triebig Kim
----
-9.
-- Volk Christian
----
-10.
-- Kiesel Michael
----
 
 ## Abgabe-Termin
 Die Aufgabe muss bis spätestens **Freitag, den 12.02.16 um 7:59** Uhr bei Andy **&** Flori als gültiger Git-Link eingegangen sein, so dass wir das Projekt auschecken können!
@@ -165,5 +119,15 @@ Prüfungszeiten werden noch per Mail bekannt gegeben.
 - Semesterwochenstunden: 4
 - Modulhandbuch: [Modulhandbuch_Inf_2014-10-09.pdf](http://www.welearn.de/fileadmin/redaktion/dokumente/modulhandbuecher/Modulhandbuch_Inf_2014-10-09.pdf)
 
-# Teams
+## Teams 
 
+1. Werb, Titzian; Hudalla, Joseph; Rost, Maximilian
+2. Bogomaz, Veronika; Yauk, Arina
+3. Nguyen, Tony; Burkhard; Jan, Ul-Haque, Danial
+4. Mierzwa, Filip, Lienert, Steffen, Eder, Thimo
+5. Hieser, Alexander; Barwanietz, Dominic; Schäfer, Philipp
+6. Keller, Felix; Hackel, Julius
+7. Gerasch, Stefan; Balz, Sebastian
+8. Triebig, Kim
+9. Volk, Christian
+10. Kiesel, Michael
