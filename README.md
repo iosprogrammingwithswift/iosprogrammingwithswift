@@ -32,36 +32,47 @@ Vervollständigt das im Git liegende `07_GesturesTutorial` um die vier fehlenden
  
 ### Teams 
 1. 
-- Werb Titian
-- Joseph Hudalla
-- Rost Maximilian
+ Werb Titian
+ Joseph Hudalla
+ Rost Maximilian
+---
 2.
-- Bogomaz Veronika
-- Yauk Arina
+Bogomaz Veronika
+Yauk Arina
+---
+
 3.
-- Tony
-- Burkhard Jan
-- Ul-Haque Danial
+ Tony
+ Burkhard Jan
+ Ul-Haque Danial
+---
 4.
-- Mierzwa Filip
-- Lienert Steffen
-- Eder Thimo
+Mierzwa Filip
+Lienert Steffen
+Eder Thimo
+---
 5.
 - Hisser Alexander
 - Dominic Barwanietz
 - Schäfer Philipp
+---
 6.
 - Keller Felix
 - Julius Hackel
+---
 7.
 - Gerasch Stefan
 - Sebastian Balz 
+---
 8.
 - Triebig Kim
+---
 9.
 - Volk Christian
+---
 10.
 - Kiesel Michael
+---
 
 ## Abgabe-Termin
 Die Aufgabe muss bis spätestens **Freitag, den 12.02.16 um 7:59** Uhr bei Andy **&** Flori als gültiger Git-Link eingegangen sein, so dass wir das Projekt auschecken können!
